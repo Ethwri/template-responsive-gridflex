@@ -69,6 +69,24 @@
     color: #fff;
 }
 
+
+/* Text Colours */
+.text-primary {
+    color: var(--primary-clr);    
+}
+
+.text-secondary {
+    color: var(--secondary-clr);    
+}
+
+.text-dark {
+    color: var(--dark-clr);    
+}
+
+.text-light {
+    color: var(--light-clr);
+}
+
 /* text-sizes */
 
 .lead {
@@ -95,6 +113,27 @@
 
 .text-center {
     text-align: center;
+}
+
+.alert {
+    background-color: var(--light-clr);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-clr);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-clr);
+    color: #fff;
 }
 
 .flex {
